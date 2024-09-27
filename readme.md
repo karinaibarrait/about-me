@@ -13,7 +13,7 @@ Este proyecto es una página web sobre mi, creada con el objetivo de poner en pr
 Durante la creación de esta página, algunos de los desafíos que enfrenté fueron:
 
 - **Estructurar adecuadamente el contenido:** Organizar de manera efectiva las secciones 'home', 'about me', 'skills' y 'contact me' para mantener una navegación clara y sencilla.
-- **Hacer que todas las secciones sean responsive:** La adaptación de todos los elementos de la página a diferentes tamaños de pantalla y dispositivos fue un reto. Algunos de los componentes no respondieron como esperaba y requieren ajustes. adicionales.
+- **Hacer que todas las secciones sean responsive:** La adaptación de todos los elementos de la página a diferentes tamaños de pantalla y dispositivos fue un reto. Algunos de los componentes no respondieron como esperaba y requieren ajustes adicionales.
 
 ## Aprendizajes
 
@@ -32,4 +32,4 @@ Estoy trabajando en mejorar los siguientes aspectos:
 
 ## Enlace a la Página
 
-[--> Hechale un vistazo a mi página aquími página aquí <--](https://karinaibarrait.github.io/about-me/)
+[--> Hechale un vistazo a mi página aquí <--](https://karinaibarrait.github.io/about-me/)
