@@ -335,6 +335,8 @@ main {
     border: 2px solid var(--dark-color);
     box-shadow: 0 0 0 0 var(--dark-color);
     display: flex;
+    align-items:flex-start;
+    justify-content:space-around;
     transition: 0.3s box-shadow;
 }
 
@@ -345,6 +347,8 @@ main {
 @media (max-width: 767px) {
     .feature-box {
         padding: 30px;
+        display: flex;
+        align-items: center;
     }
 }
 
@@ -396,6 +400,7 @@ main {
 .feature-box-small {
     padding: 15px;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .feature-box-small:hover {
@@ -407,14 +412,26 @@ main {
     height: 50px;
 }
 
-.feature-box-small  h6 {
+.feature-box h6 {
     margin: 0;
     color: var(--dark-color);
     padding-left: 15px;
+    font-size: 18px;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+@media (max-width: 670px) {
+.feature-box-small  h6 {
+    margin: 0;
+    color: var(--dark-color);
+    padding-left: 10px;
+    font-size: small;
+    }
 }
 
 #about {
-    padding: 100px;
+    padding-top: 100px;
 }
 
 #about h6{
@@ -423,7 +440,7 @@ main {
 }
 
 #hard-skills {
-   padding: 100px;
+   padding-top: 100px;
 }
 
 .feature-box.bg-1 {
@@ -508,6 +525,14 @@ main {
     margin-bottom: 50px;
 }
 
+@media (max-width: 767px) {
+    .contact-intro p {
+    font-size: 24px;
+    margin-bottom: 28px;
+    }
+}
+
+
 .contact-box {
     display: flex;
     align-items: center;
@@ -574,4 +599,20 @@ main {
     color: var(--dark-color); 
 }
 
+body {
+    padding: 0px;
+}
+
+
+body, html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-toggler .collapsed { 
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 
