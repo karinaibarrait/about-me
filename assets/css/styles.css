@@ -46,6 +46,7 @@ a:hover {
 
 .main-header .navbar{
     padding: 15px 0;
+    background: rgb(245, 222, 179); /* Se cambio el color del fondo para que no pierda la navbar durante la navegacion) */
 }
 
 .main-header .navbar > li {
@@ -616,3 +617,22 @@ body, html {
     overflow-x: hidden !important;
 }
 
+/* Se soluciono el problema de la nabvar desordenada en pantallas de 1200-900px */
+@media (max-width: 1200px) and (min-width: 900px) {
+    .navbar > .container,
+    .navbar > .container-fluid,
+    .navbar > .container-lg,
+    .navbar > .container-md,
+    .navbar > .container-sm,
+    .navbar > .container-xl,
+    .navbar > .container-xxl {
+      flex-wrap: wrap;
+    }
+  }
+ 
+  @media (max-width: 992px) {
+    .ms-auto {
+      margin-left: 0 !important;
+    }
+  } /* Se ubico correctamente el botón de contacto */
+  
