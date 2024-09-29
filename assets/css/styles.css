@@ -755,4 +755,14 @@ body, html {
         padding: 0 20px;
     }
 } /* se ajusto el ancho máximo de las secciones */
-/*
+
+
+@media (max-width: 767px) {
+    #soft-skills .section-heading h3 {
+        padding-top: 30px;
+    }
+
+    #certificates .section-heading h3 {
+        padding-top: 30px;
+    }
+}
