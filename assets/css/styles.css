@@ -628,11 +628,131 @@ body, html {
     .navbar > .container-xxl {
       flex-wrap: wrap;
     }
-  }
- 
-  @media (max-width: 992px) {
+}
+
+@media (max-width: 991px) {
     .ms-auto {
-      margin-left: 0 !important;
+        margin-left: 0 !important; /* Se ubico correctamente el botón de contacto */
     }
-  } /* Se ubico correctamente el botón de contacto */
-  
+}
+
+@media (min-width: 768px) {
+    .row .col-md-6 {
+        display: flex !important
+    }
+}  /* Sección hard skilss responsive */
+
+/* sección contact responsive -------------*/
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    #contact .contact-box {
+        align-items:baseline !important;
+    }
+
+    #contact .col-md-4  {
+    display: flex;
+    }
+
+    #contact .contact-box h6 {
+        font-size: 35px;
+    }  
+    #contact .contact-box p {
+        font-size: 16px;
+    }
+} 
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #contact .col-md-4 {
+        flex: 0 0 auto;
+        width: 80%;
+    }
+
+    #contact .col-md-4 .icon {
+        flex: 0 0 auto;
+        width: auto;
+    }
+    #contact .contact-box h6 {
+        font-size: 30px;
+    }
+
+    #contact .contact-box p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    #contact .col-md-4 {
+        flex: 0 0 auto;
+        width: 80%;
+    }
+
+    #contact .col-md-4 .icon {
+        flex: 0 0 auto;
+        width: auto;
+    }
+    
+    #contact .contact-box h6 {
+        font-size: 28px;
+    }
+
+    #contact .contact-box p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 576px)  {
+
+    #contact .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    #contact .col-md-4 .icon {
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    #contact .contact-box h6 {
+        font-size: 30px;
+    }
+
+    #contact .contact-box p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 447px)  {
+
+    #contact .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    #contact .col-md-4 .icon {
+        flex: 0 0 auto;
+        width: auto;
+    }
+
+    #contact .contact-box h6 {
+        font-size: 28px;
+    }
+
+    #contact .contact-box p {
+        font-size: 16px;
+    }
+}
+
+#contact .contact-box {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} /* Se ajusto la sección contact al diseño responsive */
+
+@media (max-width: 992px) and (min-width: 576px) {
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+} /* se ajusto el ancho máximo de las secciones */
+/*
